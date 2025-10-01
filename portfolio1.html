@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burla Syamala Rao - Digital Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div class="particles" id="particles"></div>
+    
+    <nav class="fixed top-0 w-full z-50 bg-black bg-opacity-50 backdrop-blur-md border-b border-cyan-500">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <div class="text-2xl font-bold glow-text font-mono">BSR</div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="hover:text-cyan-400 transition-colors">Home</a>
+                    <a href="#about" class="hover:text-cyan-400 transition-colors">About</a>
+                    <a href="#skills" class="hover:text-cyan-400 transition-colors">Skills</a>
+                    <a href="#projects" class="hover:text-cyan-400 transition-colors">Upcoming Projects</a>
+                    <a href="#certificates" class="hover:text-cyan-400 transition-colors">Certificates</a>
+                    <a href="#contact" class="hover:text-cyan-400 transition-colors">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="min-h-screen flex items-center justify-center relative z-10">
+        <div class="text-center px-6">
+            <div class="floating mb-8">
+                <div class="w-48 h-48 mx-auto mb-8 relative">
+                    <div class="w-full h-full rounded-full border-4 border-cyan-400 p-2 pulse-glow">
+                        <div class="w-full h-full rounded-full overflow-hidden bg-gradient-to-br from-cyan-500 to-pink-500 flex items-center justify-center relative">
+                            <img src="https://strategic-brown-oj0f90cwt9.edgeone.app/my-profile.jpeg.jpeg" 
+                                 alt="Burla Syamala Rao - Profile Photo" 
+                                 class="w-full h-full object-cover rounded-full"
+                                 onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="w-full h-full bg-gray-800 rounded-full flex items-center justify-center" 
+                                 style="display: none;">
+                                <i class="fas fa-user text-6xl text-cyan-400"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="floating">
+                <h1 class="text-6xl md:text-8xl font-black mb-6 glow-text font-mono">
+                    BURLA SYAMALA RAO
+                </h1>
+            </div>
+            <p class="text-xl md:text-2xl mb-4 text-cyan-300">
+                Gudivada — 3rd year B.Tech, Sir C R Reddy College of Engineering, Eluru
+            </p>
+            <p class="text-lg md:text-xl mb-8 text-pink-300 max-w-3xl mx-auto">
+                Curious problem-solver & creative developer turning ideas into interactive digital experiences.
+            </p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <button class="px-8 py-3 bg-gradient-to-r from-cyan-500 to-pink-500 rounded-full font-semibold hover:scale-105 transition-transform pulse-glow">
+                    View Projects
+                </button>
+                <a href="https://drive.google.com/file/d/1__xsljM45e2wbPA6xEvbo0Y6NM5-yqc_/view?usp=drivesdk" rel="noopener noreferrer" class="inline-block px-8 py-3 border-2 border-cyan-500 rounded-full font-semibold hover:bg-cyan-500 hover:text-black transition-all">
+                    Download Resume
+                </a>
+                <button class="px-8 py-3 border-2 border-pink-500 rounded-full font-semibold hover:bg-pink-500 hover:text-black transition-all">
+                    Contact Me
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-20 relative z-10">
+        <div class="container mx-auto px-6">
+            <h2 class="text-5xl font-bold text-center mb-16 glow-text">About Me</h2>
+            <div class="max-w-4xl mx-auto">
+                <div class="card-3d p-8 rounded-2xl">
+                    <div class="text-lg leading-relaxed space-y-6">
+                        <p>Hello! I'm <span class="text-cyan-400 font-semibold">Burla Syamala Rao</span> from Gudivada. Currently, I'm pursuing 3rd year B.Tech in Sir C R Reddy College of Engineering, Eluru. I am a curious problem-solver and creative developer who loves turning ideas into interactive digital experiences.</p>
+                        
+                        <p>I focus on building fast, accessible, and visually appealing applications. I enjoy bringing together clean code and thoughtful design to craft solutions that people genuinely enjoy using.</p>
+                        
+                        <p>Over the past few years, I've worked on projects ranging from smart traffic clearance systems to eye-to-eye transaction prototypes, blending innovation with practicality (in working). I thrive in environments where I can learn, experiment, and deliver.</p>
+                        
+                        <p>Outside of tech, I'm passionate about exploring new ideas, learning continuously, and mentoring peers. I believe technology should solve real problems and make life easier, and that belief drives everything I build.</p>
+                        
+                        <p class="text-pink-400 font-semibold">✨ My vision: to grow as a developer who not only codes but also creates impactful solutions that leave a mark.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="py-20 relative z-10">
+        <div class="container mx-auto px-6">
+            <h2 class="text-5xl font-bold text-center mb-16 glow-text">Skills</h2>
+            <div class="max-w-4xl mx-auto space-y-8">
+                <div class="skill-item">
+                    <div class="flex justify-between items-center mb-3">
+                        <div class="flex items-center">
+                            <i class="fab fa-html5 text-2xl text-orange-500 mr-3"></i>
+                            <span class="text-xl font-semibold">Web Development (HTML, CSS, JS)</span>
+                        </div>
+                        <span class="text-orange-500 font-bold">88%</span>
+                    </div>
+                    <div class="skill-bar h-4">
+                        <div class="skill-fill" data-width="88"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-item">
+                    <div class="flex justify-between items-center mb-3">
+                        <div class="flex items-center">
+                            <i class="fab fa-cuttlefish text-2xl text-cyan-400 mr-3"></i>
+                            <span class="text-xl font-semibold">C Language</span>
+                        </div>
+                        <span class="text-cyan-400 font-bold">90%</span>
+                    </div>
+                    <div class="skill-bar h-4">
+                        <div class="skill-fill" data-width="90"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-item">
+                    <div class="flex justify-between items-center mb-3">
+                        <div class="flex items-center">
+                            <i class="fab fa-python text-2xl text-green-400 mr-3"></i>
+                            <span class="text-xl font-semibold">Python</span>
+                        </div>
+                        <span class="text-green-400 font-bold">85%</span>
+                    </div>
+                    <div class="skill-bar h-4">
+                        <div class="skill-fill" data-width="85"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-item">
+                    <div class="flex justify-between items-center mb-3">
+                        <div class="flex items-center">
+                            <i class="fab fa-java text-2xl text-orange-400 mr-3"></i>
+                            <span class="text-xl font-semibold">Java</span>
+                        </div>
+                        <span class="text-orange-400 font-bold">80%</span>
+                    </div>
+                    <div class="skill-bar h-4">
+                        <div class="skill-fill" data-width="80"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-item">
+                    <div class="flex justify-between items-center mb-3">
+                        <div class="flex items-center">
+                            <i class="fas fa-code text-2xl text-pink-400 mr-3"></i>
+                            <span class="text-xl font-semibold">DSA in Java</span>
+                        </div>
+                        <span class="text-pink-400 font-bold">75%</span>
+                    </div>
+                    <div class="skill-bar h-4">
+                        <div class="skill-fill" data-width="75"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-20 relative z-10">
+        <div class="container mx-auto px-6">
+            <h2 class="text-5xl font-bold text-center mb-16 glow-text">Upcoming Projects</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="md:col-span-2 lg:col-span-3">
+                    <div class="card-3d p-8 rounded-2xl border-2 border-pink-500">
+                        <div class="flex items-center mb-4">
+                            <span class="bg-pink-500 text-black px-3 py-1 rounded-full text-sm font-bold mr-4">FEATURED</span>
+                            <span class="bg-yellow-500 text-black px-3 py-1 rounded-full text-sm font-bold mr-4">ONGOING</span>
+                            <h3 class="text-2xl font-bold text-pink-400">Smart Farmer Platform</h3>
+                        </div>
+                        <p class="text-gray-300 mb-4">Comprehensive agricultural platform where farmers can learn modern farming techniques, get pest management guidance, and access expert advice for sustainable agriculture practices. <span class="text-yellow-400 font-semibold">Currently in development phase.</span></p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-cyan-500 bg-opacity-20 text-cyan-400 px-3 py-1 rounded-full text-sm">Python</span>
+                            <span class="bg-green-500 bg-opacity-20 text-green-400 px-3 py-1 rounded-full text-sm">Agriculture Tech</span>
+                            <span class="bg-purple-500 bg-opacity-20 text-purple-400 px-3 py-1 rounded-full text-sm">Machine Learning</span>
+                            <span class="bg-yellow-500 bg-opacity-20 text-yellow-400 px-3 py-1 rounded-full text-sm">IoT</span>
+                        </div>
+                        <div class="flex gap-4">
+                            <button class="px-4 py-2 bg-gradient-to-r from-cyan-500 to-pink-500 rounded-lg font-semibold hover:scale-105 transition-transform">
+                                <i class="fas fa-external-link-alt mr-2"></i>Live Demo
+                            </button>
+                            <button class="px-4 py-2 border border-cyan-500 rounded-lg font-semibold hover:bg-cyan-500 hover:text-black transition-all">
+                                <i class="fab fa-github mr-2"></i>GitHub
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card-3d p-6 rounded-2xl">
+                    <h3 class="text-xl font-bold text-cyan-400 mb-3">Eye-to-Eye Transaction</h3>
+                    <p class="text-gray-300 mb-4">Secure peer-to-peer transaction system with biometric authentication.</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-blue-500 bg-opacity-20 text-blue-400 px-2 py-1 rounded text-sm">Java</span>
+                        <span class="bg-red-500 bg-opacity-20 text-red-400 px-2 py-1 rounded text-sm">Security</span>
+                    </div>
+                    <div class="flex gap-2">
+                        <button class="flex-1 px-3 py-2 bg-cyan-500 bg-opacity-20 text-cyan-400 rounded hover:bg-opacity-30 transition-all">
+                            <i class="fas fa-eye mr-1"></i>Demo
+                        </button>
+                        <button class="flex-1 px-3 py-2 border border-cyan-500 rounded hover:bg-cyan-500 hover:text-black transition-all">
+                            <i class="fab fa-github mr-1"></i>Code
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="card-3d p-6 rounded-2xl">
+                    <h3 class="text-xl font-bold text-green-400 mb-3">Web Portfolio</h3>
+                    <p class="text-gray-300 mb-4">Interactive portfolio with 3D animations and modern design.</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-orange-500 bg-opacity-20 text-orange-400 px-2 py-1 rounded text-sm">HTML/CSS</span>
+                        <span class="bg-yellow-500 bg-opacity-20 text-yellow-400 px-2 py-1 rounded text-sm">JavaScript</span>
+                    </div>
+                    <div class="flex gap-2">
+                        <button class="flex-1 px-3 py-2 bg-green-500 bg-opacity-20 text-green-400 rounded hover:bg-opacity-30 transition-all">
+                            <i class="fas fa-globe mr-1"></i>Live
+                        </button>
+                        <button class="flex-1 px-3 py-2 border border-green-500 rounded hover:bg-green-500 hover:text-black transition-all">
+                            <i class="fab fa-github mr-1"></i>Code
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="card-3d p-6 rounded-2xl">
+                    <h3 class="text-xl font-bold text-purple-400 mb-3">Data Structures Visualizer</h3>
+                    <p class="text-gray-300 mb-4">Interactive tool for visualizing algorithms and data structures.</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-cyan-500 bg-opacity-20 text-cyan-400 px-2 py-1 rounded text-sm">C</span>
+                        <span class="bg-pink-500 bg-opacity-20 text-pink-400 px-2 py-1 rounded text-sm">Algorithms</span>
+                    </div>
+                    <div class="flex gap-2">
+                        <button class="flex-1 px-3 py-2 bg-purple-500 bg-opacity-20 text-purple-400 rounded hover:bg-opacity-30 transition-all">
+                            <i class="fas fa-play mr-1"></i>Demo
+                        </button>
+                        <button class="flex-1 px-3 py-2 border border-purple-500 rounded hover:bg-purple-500 hover:text-black transition-all">
+                            <i class="fab fa-github mr-1"></i>Code
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certificates" class="py-20 relative z-10">
+        <div class="container mx-auto px-6">
+            <h2 class="text-5xl font-bold text-center mb-16 glow-text">Certificates</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
+                <div class="card-3d p-6 rounded-2xl">
+                    <div class="certificate-thumbnail mb-4" onclick="openModal('awsModal')">
+                        <div class="text-center">
+                            <i class="fab fa-aws text-6xl text-orange-400 mb-4"></i>
+                            <h3 class="text-xl font-bold text-orange-400">AWS Cloud Computing</h3>
+                            <p class="text-gray-300 mt-2">Click to view certificate</p>
+                        </div>
+                    </div>
+                    <div class="text-center mb-4">
+                        <h4 class="text-lg font-semibold text-orange-400 mb-2">AWS - Cloud Computing</h4>
+                        <p class="text-sm text-gray-400 mb-1">S.D.C. ID: SDC/24-25/AWS/1854</p>
+                        <p class="text-sm text-gray-400">Issue Date: 21-10-2024 → 26-10-2024</p>
+                    </div>
+                    <div class="text-center">
+                        <a href="https://lost-jade-oidbdzkrdx.edgeone.app/AWS.jpeg"_blank" rel="noopener noreferrer" 
+                           class="inline-block px-4 py-2 bg-orange-500 bg-opacity-20 text-orange-400 rounded-lg hover:bg-opacity-30 transition-all">
+                            <i class="fas fa-external-link-alt mr-2"></i>View Certificate
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="card-3d p-6 rounded-2xl">
+                    <div class="certificate-thumbnail mb-4" onclick="openModal('fsdModal')">
+                        <div class="text-center">
+                            <i class="fas fa-code text-6xl text-cyan-400 mb-4"></i>
+                            <h3 class="text-xl font-bold text-cyan-400">TATA DATA ANALYSTICS</h3>
+                            <p class="text-gray-300 mt-2">Click to view certificate</p>
+                        </div>
+                    </div>
+                    <div class="text-center mb-4">
+                        <h4 class="text-lg font-semibold text-cyan-400 mb-2"> Certificate</h4>
+                        <p class="text-sm text-gray-400 mb-1">Completion Certificate</p>
+                        <p class="text-sm text-gray-400">TATA DATA ANALYSTICS</p>
+                    </div>
+                    <div class="text-center">
+                        <a href="https://worthy-fuchsia-jjpmse5umd.edgeone.app/Tata.jpeg" target="_blank" rel="noopener noreferrer" 
+                           class="inline-block px-4 py-2 bg-cyan-500 bg-opacity-20 text-cyan-400 rounded-lg hover:bg-opacity-30 transition-all">
+                            <i class="fas fa-external-link-alt mr-2"></i>View Certificate
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="card-3d p-6 rounded-2xl">
+                    <div class="certificate-thumbnail mb-4" onclick="openModal('edzzeetaModal')">
+                        <div class="text-center">
+                            <i class="fas fa-briefcase text-6xl text-purple-400 mb-4"></i>
+                            <h3 class="text-xl font-bold text-purple-400">Edzzeeta Internship</h3>
+                            <p class="text-gray-300 mt-2">Click to view certificate</p>
+                        </div>
+                    </div>
+                    <div class="text-center mb-4">
+                        <h4 class="text-lg font-semibold text-purple-400 mb-2">Edzzeeta Internship Certificate</h4>
+                        <p class="text-sm text-gray-400 mb-1">Internship Certificate</p>
+                        <p class="text-sm text-gray-400">Technology Internship Program</p>
+                    </div>
+                    <div class="text-center">
+                        <a href="https://welcome-fuchsia-dwzsebhk1d.edgeone.app/Edzeeta.jpeg" target="_blank" rel="noopener noreferrer" 
+                           class="inline-block px-4 py-2 bg-purple-500 bg-opacity-20 text-purple-400 rounded-lg hover:bg-opacity-30 transition-all">
+                            <i class="fas fa-external-link-alt mr-2"></i>View Certificate
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="card-3d p-6 rounded-2xl">
+                    <div class="certificate-thumbnail mb-4">
+                        <div class="text-center">
+                            <i class="fas fa-certificate text-6xl text-green-400 mb-4"></i>
+                            <h3 class="text-xl font-bold text-green-400">Internship Certificate</h3>
+                            <p class="text-gray-300 mt-2">Add your certificate</p>
+                        </div>
+                    </div>
+                    <div class="text-center mb-4">
+                        <h4 class="text-lg font-semibold text-green-400 mb-2">Internship Certificate</h4>
+                        <p class="text-sm text-gray-400 mb-1">Your Internship Program</p>
+                        <p class="text-sm text-gray-400">Add certificate details</p>
+                    </div>
+                    <div class="text-center">
+                        <a href="https://dynamic-fuchsia-b9hjuita7f.edgeone.app/intership%20FSD.jpeg" target="_blank" rel="noopener noreferrer" 
+                           class="inline-block px-4 py-2 bg-green-500 bg-opacity-20 text-green-400 rounded-lg hover:bg-opacity-30 transition-all">
+                            <i class="fas fa-external-link-alt mr-2"></i>View Certificate
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 relative z-10">
+        <div class="container mx-auto px-6">
+            <h2 class="text-5xl font-bold text-center mb-16 glow-text">Contact Me</h2>
+            <div class="max-w-6xl mx-auto grid lg:grid-cols-2 gap-12">
+                <div class="card-3d p-8 rounded-2xl">
+                    <h3 class="text-2xl font-bold text-cyan-400 mb-6">Get In Touch</h3>
+                    <div class="space-y-6">
+                        <div class="flex items-center">
+                            <i class="fas fa-envelope text-2xl text-pink-400 mr-4"></i>
+                            <div>
+                                <p class="text-gray-300">Email</p>
+                                <a href="mailto:burlasyamalarao99@gmail.com" class="text-cyan-400 hover:text-pink-400 transition-colors">
+                                    burlasyamalarao99@gmail.com
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center">
+                            <i class="fas fa-phone text-2xl text-green-400 mr-4"></i>
+                            <div>
+                                <p class="text-gray-300">Phone</p>
+                                <a href="tel:9398540299" class="text-cyan-400 hover:text-pink-400 transition-colors">
+                                    +91 9398540299
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center">
+                            <i class="fas fa-map-marker-alt text-2xl text-purple-400 mr-4"></i>
+                            <div>
+                                <p class="text-gray-300">Location</p>
+                                <p class="text-cyan-400">Gudivada, Andhra Pradesh</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-8 pt-8 border-t border-gray-700">
+                        <h4 class="text-lg font-semibold text-cyan-400 mb-4">Connect With Me</h4>
+                        <div class="flex space-x-4">
+                            <a href="https://www.linkedin.com/in/syamala-rao-burla-46a7b3350" target="_blank" rel="noopener noreferrer" 
+                               class="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center hover:scale-110 transition-transform">
+                                <i class="fab fa-linkedin-in text-xl"></i>
+                            </a>
+                            <a href="#" target="_blank" rel="noopener noreferrer" 
+                               class="w-12 h-12 bg-gray-800 rounded-full flex items-center justify-center hover:scale-110 transition-transform">
+                                <i class="fab fa-github text-xl"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-8">
+                        <a href="https://controlled-amber-jcaodtq09t.edgeone.app/resume%20(1).pdf" target="_blank" rel="noopener noreferrer" class="block w-full px-6 py-3 bg-gradient-to-r from-cyan-500 to-pink-500 rounded-full font-semibold hover:scale-105 transition-transform pulse-glow text-center">
+                            <i class="fas fa-download mr-2"></i>Download Resume
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="card-3d p-8 rounded-2xl">
+                    <h3 class="text-2xl font-bold text-pink-400 mb-6">Send Message</h3>
+                    <form id="contactForm" class="space-y-6">
+                        <div>
+                            <label class="block text-gray-300 mb-2">Name</label>
+                            <input type="text" placeholder="Your Name" 
+                                   class="w-full px-4 py-3 bg-gray-800 border border-gray-600 rounded-lg focus:border-cyan-400 focus:outline-none transition-colors">
+                        </div>
+                        
+                        <div>
+                            <label class="block text-gray-300 mb-2">Email</label>
+                            <input type="email" placeholder="your.email@example.com" 
+                                   class="w-full px-4 py-3 bg-gray-800 border border-gray-600 rounded-lg focus:border-cyan-400 focus:outline-none transition-colors">
+                        </div>
+                        
+                        <div>
+                            <label class="block text-gray-300 mb-2">Message</label>
+                            <textarea rows="5" placeholder="Your message here..." 
+                                      class="w-full px-4 py-3 bg-gray-800 border border-gray-600 rounded-lg focus:border-cyan-400 focus:outline-none transition-colors resize-none"></textarea>
+                        </div>
+                        
+                        <button type="submit" 
+                                class="w-full px-6 py-3 bg-gradient-to-r from-pink-500 to-cyan-500 rounded-lg font-semibold hover:scale-105 transition-transform">
+                            <i class="fas fa-paper-plane mr-2"></i>Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="fixed bottom-6 right-6 z-50">
+        <div class="bg-gradient-to-r from-pink-500 to-red-500 rounded-full p-4 shadow-lg pulse-glow">
+            <button id="loveButton" class="flex items-center space-x-2 text-white font-semibold hover:scale-110 transition-transform">
+                <i id="heartIcon" class="fas fa-heart text-2xl"></i>
+                <span id="loveCount" class="text-lg font-bold">0</span>
+            </button>
+        </div>
+    </div>
+
+    <footer class="py-8 border-t border-gray-800 relative z-10">
+        <div class="container mx-auto px-6 text-center">
+            <p class="text-gray-400">© 2024 Burla Syamala Rao. All rights reserved.</p>
+            <p class="text-sm text-gray-500 mt-2">Built with passion and futuristic design</p>
+        </div>
+    </footer>
+
+    <div id="awsModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('awsModal')">&times;</span>
+            <div class="p-8 text-center">
+                <h2 class="text-3xl font-bold text-orange-400 mb-6">AWS Cloud Computing Certificate</h2>
+                <div class="bg-gradient-to-br from-orange-500 to-red-500 p-8 rounded-lg text-white mb-6">
+                    <div class="border-4 border-white p-8 rounded-lg">
+                        <i class="fab fa-aws text-6xl mb-4"></i>
+                        <h3 class="text-2xl font-bold mb-4">Certificate of Completion</h3>
+                        <p class="text-lg mb-2">This is to certify that</p>
+                        <h4 class="text-3xl font-bold mb-4">BURLA SYAMALA RAO</h4>
+                        <p class="text-lg mb-4">has successfully completed the</p>
+                        <h5 class="text-xl font-semibold mb-4">AWS Cloud Computing Course</h5>
+                        <div class="flex justify-between items-center mt-8">
+                            <div>
+                                <p class="text-sm">S.D.C. ID: SDC/24-25/AWS/1854</p>
+                                <p class="text-sm">Duration: 21-10-2024 → 26-10-2024</p>
+                            </div>
+                            <div class="text-right">
+                                <p class="text-sm">Authorized Signature</p>
+                                <div class="border-b-2 border-white w-24 mt-2"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button onclick="closeModal('awsModal')" 
+                        class="px-6 py-3 bg-orange-500 rounded-lg font-semibold hover:bg-orange-600 transition-colors">
+                    Close Certificate
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div id="fsdModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('fsdModal')">&times;</span>
+            <div class="p-8 text-center">
+                <h2 class="text-3xl font-bold text-cyan-400 mb-6">Full Stack Development Certificate</h2>
+                <div class="bg-gradient-to-br from-cyan-500 to-blue-500 p-8 rounded-lg text-white mb-6">
+                    <div class="border-4 border-white p-8 rounded-lg">
+                        <i class="fas fa-code text-6xl mb-4"></i>
+                        <h3 class="text-2xl font-bold mb-4">Certificate of Participation</h3>
+                        <p class="text-lg mb-2">This is to certify that</p>
+                        <h4 class="text-3xl font-bold mb-4">BURLA SYAMALA RAO</h4>
+                        <p class="text-lg mb-4">has successfully participated in the</p>
+                        <h5 class="text-xl font-semibold mb-4">Full Stack Development Program</h5>
+                        <div class="flex justify-between items-center mt-8">
+                            <div>
+                                <p class="text-sm">Participation Certificate</p>
+                                <p class="text-sm">Full Stack Development</p>
+                            </div>
+                            <div class="text-right">
+                                <p class="text-sm">Authorized Signature</p>
+                                <div class="border-b-2 border-white w-24 mt-2"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button onclick="closeModal('fsdModal')" 
+                        class="px-6 py-3 bg-cyan-500 rounded-lg font-semibold hover:bg-cyan-600 transition-colors">
+                    Close Certificate
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div id="edzzeetaModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('edzzeetaModal')">&times;</span>
+            <div class="p-8 text-center">
+                <h2 class="text-3xl font-bold text-purple-400 mb-6">Edzzeeta Internship Certificate</h2>
+                <div class="bg-gradient-to-br from-purple-500 to-indigo-500 p-8 rounded-lg text-white mb-6">
+                    <div class="border-4 border-white p-8 rounded-lg">
+                        <i class="fas fa-briefcase text-6xl mb-4"></i>
+                        <h3 class="text-2xl font-bold mb-4">Certificate of Internship</h3>
+                        <p class="text-lg mb-2">This is to certify that</p>
+                        <h4 class="text-3xl font-bold mb-4">BURLA SYAMALA RAO</h4>
+                        <p class="text-lg mb-4">has successfully completed the internship at</p>
+                        <h5 class="text-xl font-semibold mb-4">EDZZEETA TECHNOLOGIES</h5>
+                        <div class="flex justify-between items-center mt-8">
+                            <div>
+                                <p class="text-sm">Internship Certificate</p>
+                                <p class="text-sm">Technology Internship Program</p>
+                            </div>
+                            <div class="text-right">
+                                <p class="text-sm">Authorized Signature</p>
+                                <div class="border-b-2 border-white w-24 mt-2"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button onclick="closeModal('edzzeetaModal')" 
+                        class="px-6 py-3 bg-purple-500 rounded-lg font-semibold hover:bg-purple-600 transition-colors">
+                    Close Certificate
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script> 
+</body>
+</html>
